@@ -6,7 +6,6 @@ import math
 # Global Variables
 ridge_detector = None
 
-
 def detect_ridges(input_img):
     global ridge_detector
     if ridge_detector is None:
