@@ -13,7 +13,6 @@ def detect_ridges(input_img):
     ridges = cv.ximgproc_RidgeDetectionFilter.getRidgeFilteredImage(ridge_detector, _img=input_img)
     return ridges
 
-
 def get_white_line_detection_task():
     """
     Called Externally to configure the white line detector
