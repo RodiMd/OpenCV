@@ -26,7 +26,6 @@ def get_white_line_detection_task():
                                                        obstacle_visual=visual, clear_negative_obstacle_detections=True)
     return task
 
-
 def get_method_name():
     """
     passes method name
